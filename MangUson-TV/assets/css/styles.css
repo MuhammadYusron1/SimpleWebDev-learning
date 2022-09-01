@@ -41,6 +41,11 @@ a:hover {
     color: var(--secondary-color);
 } 
 
+
+/* Dark theme starts */
+/* Dark theme ends */
+
+/* Navbar starts */
 .fist {
     color: var(--secondary-color);
 }
@@ -55,15 +60,15 @@ a:hover {
 
 nav {
     background: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
     box-shadow: 2px 3px 2px #f1f1f1;
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 1;
 }
 
 .hamburger {
@@ -89,11 +94,13 @@ ul {
     font-weight: var(--bold-font);
 }
 
-/* Dark theme starts */
-
-/* Dark theme ends */
-
-/* Navbar starts */
+.bar {
+    background-color: #020202;
+    display: block;
+    width: 30px;
+    height: 4px;
+    margin: 6px auto;
+}
 
 /* Dark theme */
 
