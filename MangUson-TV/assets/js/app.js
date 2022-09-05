@@ -6,6 +6,7 @@ const scrollUp = document.querySelector("#scroll-up");
 // Hamburger menu functionality
 
 // Theme switcher selection
+const checkbox = document.querySelector("#checkbox");
 
 // Close menu on nav menu clicks
 
@@ -17,3 +18,6 @@ scrollUp.addEventListener("click", () => {
 });
 
 // Theme switcher functionality
+checkbox.addEventListener("change", () => {
+    document.body.classList.toggle("dark");     // Toggle website theme
+});
