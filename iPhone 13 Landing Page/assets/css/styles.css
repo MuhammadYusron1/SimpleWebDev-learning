@@ -1,0 +1,24 @@
+/* CSS Variables */
+:root{
+    --bg-color: linear-gradient(-25deg, #e6e8ec, #fff);
+    --dark-color: #0a0a0c;
+    --light-color: #fff;
+    --primary-color: #1316cf;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: poppins, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: var(--bg-color);
+    color: var(dark-color);
+    overflow: hidden;
+}
+
