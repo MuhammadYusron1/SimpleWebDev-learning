@@ -1,0 +1,24 @@
+/* CSS Variables */
+:root {
+    --bg-color: #acb439;
+    --dark-color: #0a0a0c;
+    --light-color: #fff;
+    --primary-color: #32a2be;
+    --secondary-color: #24d124;
+}
+
+* {
+    margin: 3px;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    width: auto;
+    height: auto;
+    border: 5px solid red;
+    background-color: var(--bg-color);
+}   
+
